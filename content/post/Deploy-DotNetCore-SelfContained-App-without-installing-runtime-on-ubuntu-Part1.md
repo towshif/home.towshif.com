@@ -17,8 +17,7 @@ keywords:
 - cross platform
 #thumbnailImage: //example.com/image.jpg
 ---
-<!--more-->
----------
+
 >Warning: Linux noob content below.
 
 # Part 1: Using Visual Studio 2015 which has a different tooling than 2017
@@ -27,10 +26,10 @@ How to publish dotnet core apps to ubuntu without installing dotnet runtime: sel
 I started exploring this option driven by a specific need. I have a bunch of applications and classes already available on different C# .NET projects scattered all over the place. Many of these libraries include complex neumerical functions, database transactions classes and image processing codes all written in C#. My current need is to develop a web API to access these functions in a scalable way. I do not really need complex user interactions, rather its a data access and analysis portal. Users access and visualize data through a portal and with time I want to add more operations to the same. I really did not want to reinvent the wheel and start a massive migration to java pr python based web integration. C# dot net core provided a good alternative to scale existing C# application and add web functionalities.
 
 ## So Why Dot net core?
-All the reason for why not .NET and Windows server based application. I was never a fan of Win Servers running .NET and IIS. Many reasons: expensive, license, open sourcing, familiarity to the sytem itself. I am not a core web deveoper - i do this more like a hobby. So I tend to go this small cleap solutions with running a small linux instance on a machine I own with dot net core on it.
+All the reason for why not .NET and Windows server based application. I was never a fan of Win Servers running .NET and IIS. Many reasons: expensive, licensing, demanding HW requirements,, closed source, my non-familiarity to the IIS itself. I am not a core web deveoper and do not make a living out of it - i do this more like a hobby. So I tend to go this small cleap solutions with running a small linux instance on a machine I own with dot net core on it.
 
 ## Why Self Contained App?
-I bought a few cheap thin clients specifically for this purpose with pretty low end cpu and memory. I managed to install Lubuntu (a very light version of Ubuntu) and has only 1 Gb of drive space left to do anything. At this point I was just stretching my options to squeeze the juice out of this machine with minimal installs. Net core runtime itself will cost you 300-400 Mb of install space added by versioning and package itself. If you are not really developing on that machine - installing runtime is an overkill. Fortunately dontet core can be run as standalone app with linux executables and dependecies compiled and packaged to run. While this package may end being bulky after publishing but nevertheless its is easily transferable across platforms of linux making it very easy to maintain. I used Windows and Visual Studio to build and publish the binaries for linux and copied the compiled package to my 'micro - thin client' and could successfully able to run the dot net core application. Here is how I did it. I dont think this post has anything new which you will not find over the internet or .core website. It is just my compilation of what worked for me.
+I bought a few cheap thin clients specifically for this purpose with pretty low end cpu and memory. I managed to install Lubuntu (a very light version of Ubuntu) and has only 1 Gb of drive space left to do anything. At this point I was just stretching my options to squeeze the juice out of this machine with minimal installs. Net core runtime itself will cost you 300-400 Mb of install space added by versioning and package itself. If you are not really developing on that machine - installing runtime is an overkill. Fortunately dontet core can be run as standalone app with linux executables and dependecies compiled and packaged to run. While this package may end being bulky after publishing but nevertheless it works out of box, you need to install/copy only once and it is easily transferable across platforms of linux making it very easy to maintain. I used Windows and Visual Studio to build and publish the binaries for linux and copied the compiled package to my 'micro - thin client' and could successfully able to run the dot net core application. Here is how I did it. I dont think this post has anything new which you will not find over the internet or .core website. It is just my compilation of what worked for me.
 
 I started off with reading this post:
 https://www.hanselman.com/blog/SelfcontainedNETCoreApplications.aspx
@@ -80,7 +79,7 @@ dotnet build -r ubuntu.16.04-x64
 ```
 $ dotnet publish -c release -r ubuntu.14.04-x64
 ```
-for other platform:
+for other platforms:
 ```
 dotnet publish -c release -r win10-x64
 dotnet publish -c release -r osx.10.10-x64

@@ -28,7 +28,7 @@ As mentioned above due to changes on csproj and json project structures I follow
 https://docs.microsoft.com/en-us/dotnet/core/tools/project-json-to-csproj
 
 ## Step 1: Change VS project setting
-open and modify *.csproj instead of project.json which does not exist. Part of the change in tooling for 2017
+Open and modify *.csproj instead of project.json which does not exist. Part of the change in tooling for 2017
 
 Add runtime ids to the csproj / project.json
 
@@ -71,7 +71,7 @@ In project.json, defining a runtimes section means the app was standalone during
 
 **For *.csproj (VS 2017)**
 
-use this for publishing standalone for any target framework
+Use CLI commands for publishing standalone for any target framework
 Note: target framework must match build framework and then restored.
 ```
 $ dotnet publish --framework netcoreapp1.0 --runtime ubuntu.16.04-x64
@@ -81,12 +81,12 @@ $ dotnet publish --framework netcoreapp1.0 --runtime ubuntu.16.04-x64
 ```
 $ dotnet publish -c release -r ubuntu.14.04-x64
 ```
- OR more specifically
+OR more specifically
 ```
 dotnet publish --framework netcoreapp1.0 --runtime ubuntu.16.04-x64
 ```
 
-other platfors as usual:
+other platforms as usual:
 ```
 dotnet publish -c release -r win10-x64
 dotnet publish -c release -r osx.10.10-x64
@@ -110,4 +110,4 @@ In that case install libunwind8 and run again
 $ sudo apt-get install libunwind8
 ```
 
-You should be good to go. Part 2 might have some repeated content, part of this is because Part 2 is an advanced version (superset) of Part 1 which only covers publishhing with Visual Studio 2015.
+You should be good to go. This post might have some repeated content as Part1. One of the reason is because Part 2 is an advanced version (superset) of Part 1 which only covers publishhing with Visual Studio 2015.
