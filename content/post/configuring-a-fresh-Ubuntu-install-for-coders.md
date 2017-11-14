@@ -23,7 +23,7 @@ keywords:
 - git
 - netbeans
 - vscode
-- intelliJ idea 
+- intelliJ idea
 - guake
 
 #thumbnailImage: //example.com/image.jpg
@@ -32,7 +32,7 @@ keywords:
 
 # How to create a sound coding environment after a fresh ubuntu install
 
-While I have been a coding enthusiast and Ubuntu has been my choice of OS as a hobbyist, I have always wanted to have a consistent coding environment across my installations without having to hunt for settings and configurations over the internet. Here I laid out a simple script with basic install procedures of various packages which has helped me and I would recommend for newbies. Note that most of my input is based on my limited experience and mostly focussed on Web development with platforms like nodejs, java, mysql, mongodb, Google cloud and some backend platforms including python. I did throw in some basic installations for browser (chrome), choice of editors (VSCode, Netbeans, IntelliJ, Vim) and some static html generators for blogging like Hugo, Jekyll and Sphynx (Python doc). I also tried to add configurations for my terminal zsh shell (guake terminal) with fonts and powerline packages that I like while working with git repos. 
+While I have been a coding enthusiast and Ubuntu has been my choice of OS as a hobbyist, I have always wanted to have a consistent coding environment across my installations without having to hunt for settings and configurations over the internet. Here I laid out a simple script with basic install procedures of various packages which has helped me and I would recommend for newbies. Note that most of my input is based on my limited experience and mostly focussed on Web development with platforms like nodejs, java, mysql, mongodb, Google cloud and some backend platforms including python. I did throw in some basic installations for browser (chrome), choice of editors (VSCode, Netbeans, IntelliJ, Vim) and some static html generators for blogging like Hugo, Jekyll and Sphynx (Python doc). I also tried to add configurations for my terminal zsh shell (guake terminal) with fonts and powerline packages that I like while working with git repos.
 
 I used the following desktop configuration for this install however I dont think this has anything to do with HW. Even you can try the same on a shared VM if you like which I tested and worked for me.
 
@@ -83,10 +83,10 @@ sh ~/.vim_runtime/install_basic_vimrc.sh
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
-# install nvm 
+# install nvm
 sudo apt-get install build-essential libssl-dev
 curl -sL  https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -o install_nvm.sh | bash
-chmod +x install_nvm.sh 
+chmod +x install_nvm.sh
 # install nvm locally for user in ~/
 ./install_nvm.sh
 # export NVM_NODEJS_ORG_MIRROR=http://nodejs.or./dist
@@ -141,7 +141,7 @@ rm -rf fonts
 # add DEFAULT_USER="towshif" or user username to hide user@domain$
 
 # Configure Samba / users <towshif> / pass (with smbpass)
-# Change /etc/samba/smb.conf 
+# Change /etc/samba/smb.conf
 # [Downloads]
 #  browseable = yes
 #  path = /home/towshif/Downloads
@@ -152,7 +152,7 @@ sudo smbpasswd -a towshif
 
 # VSCode Sync Settings - gist token for upload
 # token <input ID from github>
-# Public GIST to share settings: Gist id: <input ID from github> 
+# Public GIST to share settings: Gist id: <input ID from github>
 
 # install vs code extensions; here is a list of all common ones for web devs
 code --install-extension AlanWalk.markdown-toc

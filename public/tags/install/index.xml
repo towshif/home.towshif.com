@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Install on KonFuzed Banda</title>
+    <link>/tags/install/</link>
+    <description>Recent content in Install on KonFuzed Banda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Nov 2017 23:47:12 -0800</lastBuildDate>
+    
+	<atom:link href="/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install DotNetCore Ubuntu</title>
+      <link>/2017/11/install-dotnetcore-ubuntu/</link>
+      <pubDate>Sat, 11 Nov 2017 23:47:12 -0800</pubDate>
+      
+      <guid>/2017/11/install-dotnetcore-ubuntu/</guid>
+      <description>Warning: Linux noob content below.
+ Ubuntu 16.04 While most of the install instructions for .NET core works from the microsoft website it is vastly generic for all versions of Linux distros available. Here I tried to install on a Ubuntu 16.04 LTS and faced some issues. Of course .NET Core itself is pretty new and expecting standard versioning and dependency management across distros might be challenging even for Microsoft.</description>
+    </item>
+    
+  </channel>
+</rss>

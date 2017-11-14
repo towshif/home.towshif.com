@@ -23,7 +23,6 @@ keywords:
 Ubuntu 16.04
 While most of the install instructions for .NET core works from the microsoft website it is vastly generic for all versions of Linux distros available. Here I tried to install on a Ubuntu 16.04 LTS and faced some issues. Of course .NET Core itself is pretty new and expecting standard versioning and dependency management across distros might be challenging even for Microsoft. 
 
-
 -----------
 
 ## STEP 1: install dependency 
