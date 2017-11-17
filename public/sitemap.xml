@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/2017/11/configuring-a-fresh-ubuntu-install-for-coders/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/11/deploy-dotnetcore-selfcontained-app-without-installing-runtime-on-ubuntu-part2/</loc>
+    <lastmod>2017-11-12T00:53:10-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/11/deploy-dotnetcore-selfcontained-app-without-installing-runtime-on-ubuntu-part1/</loc>
+    <lastmod>2017-11-12T00:13:02-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/11/install-dotnetcore-ubuntu/</loc>
+    <lastmod>2017-11-11T23:47:12-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/hello/</loc>
+    <lastmod>2017-11-11T21:05:16-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/11/my-second-post/</loc>
+    <lastmod>2017-11-11T21:01:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/category/</loc>
+    <lastmod>2017-11-11T21:05:16-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/code/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/configurations/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dot-net-core/</loc>
+    <lastmod>2017-11-12T00:53:10-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/dot-net-core/</loc>
+    <lastmod>2017-11-12T00:53:10-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/git/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/install/</loc>
+    <lastmod>2017-11-11T23:47:12-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/install/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/page/</loc>
+    <lastmod>2017-11-11T21:05:16-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programs/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shell/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/subcategory/</loc>
+    <lastmod>2017-11-11T21:05:16-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tag1/</loc>
+    <lastmod>2017-11-11T21:05:16-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tag2/</loc>
+    <lastmod>2017-11-11T21:05:16-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ubuntu/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ubuntu/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vim/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/zsh/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

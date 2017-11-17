@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on KonFuzed Banda</title>
+    <link>/tags/vim/</link>
+    <description>Recent content in Vim on KonFuzed Banda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2017 23:01:21 -0800</lastBuildDate>
+    
+	<atom:link href="/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuring a Fresh Ubuntu Install for Coders</title>
+      <link>/2017/11/configuring-a-fresh-ubuntu-install-for-coders/</link>
+      <pubDate>Sun, 12 Nov 2017 23:01:21 -0800</pubDate>
+      
+      <guid>/2017/11/configuring-a-fresh-ubuntu-install-for-coders/</guid>
+      <description>Warning: Linux noob content below.
+ How to create a sound coding environment after a fresh ubuntu install While I have been a coding enthusiast and Ubuntu has been my choice of OS as a hobbyist, I have always wanted to have a consistent coding environment across my installations without having to hunt for settings and configurations over the internet. Here I laid out a simple script with basic install procedures of various packages which has helped me and I would recommend for newbies.</description>
+    </item>
+    
+  </channel>
+</rss>

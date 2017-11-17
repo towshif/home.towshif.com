@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on KonFuzed Banda</title>
+    <link>/categories/ubuntu/</link>
+    <description>Recent content in Ubuntu on KonFuzed Banda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2017 23:01:21 -0800</lastBuildDate>
+    
+	<atom:link href="/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuring a Fresh Ubuntu Install for Coders</title>
+      <link>/2017/11/configuring-a-fresh-ubuntu-install-for-coders/</link>
+      <pubDate>Sun, 12 Nov 2017 23:01:21 -0800</pubDate>
+      
+      <guid>/2017/11/configuring-a-fresh-ubuntu-install-for-coders/</guid>
+      <description>Warning: Linux noob content below.
+ How to create a sound coding environment after a fresh ubuntu install While I have been a coding enthusiast and Ubuntu has been my choice of OS as a hobbyist, I have always wanted to have a consistent coding environment across my installations without having to hunt for settings and configurations over the internet. Here I laid out a simple script with basic install procedures of various packages which has helped me and I would recommend for newbies.</description>
+    </item>
+    
+    <item>
+      <title>Deploy DotNetCore SelfContained App Without Installing Runtime on Ubuntu Part2</title>
+      <link>/2017/11/deploy-dotnetcore-selfcontained-app-without-installing-runtime-on-ubuntu-part2/</link>
+      <pubDate>Sun, 12 Nov 2017 00:53:10 -0800</pubDate>
+      
+      <guid>/2017/11/deploy-dotnetcore-selfcontained-app-without-installing-runtime-on-ubuntu-part2/</guid>
+      <description>Warning: Linux noob content below.
+ Part 2: Using Visual Studio 2017 with better tooling and bugfixes. How to publish dotnet core apps to ubuntu without installing dotnet runtime: self contained apps development
+As a continuation of the previous post I tried to do the same with VS 2017 which supposedly has better tooling for Dot Net Core. I did also see the cspoj and xml structures were altered ( maybe for good - I am too noob to comment); but long story short, I had to dig around to get it working and compile the correct platform specific runtimes binaries.</description>
+    </item>
+    
+    <item>
+      <title>Deploy DotNetCore SelfContained App Without Installing Runtime on Ubuntu Part1</title>
+      <link>/2017/11/deploy-dotnetcore-selfcontained-app-without-installing-runtime-on-ubuntu-part1/</link>
+      <pubDate>Sun, 12 Nov 2017 00:13:02 -0800</pubDate>
+      
+      <guid>/2017/11/deploy-dotnetcore-selfcontained-app-without-installing-runtime-on-ubuntu-part1/</guid>
+      <description>Warning: Linux noob content below.
+ Part 1: Using Visual Studio 2015 which has a different tooling than 2017 How to publish dotnet core apps to ubuntu without installing dotnet runtime: self contained apps development? I started exploring this option driven by a specific need. I have a bunch of applications and classes already available on different C# .NET projects scattered all over the place. Many of these libraries include complex neumerical functions, database transactions classes and image processing codes all written in C#.</description>
+    </item>
+    
+    <item>
+      <title>Install DotNetCore Ubuntu</title>
+      <link>/2017/11/install-dotnetcore-ubuntu/</link>
+      <pubDate>Sat, 11 Nov 2017 23:47:12 -0800</pubDate>
+      
+      <guid>/2017/11/install-dotnetcore-ubuntu/</guid>
+      <description>Warning: Linux noob content below.
+ Ubuntu 16.04 While most of the install instructions for .NET core works from the microsoft website it is vastly generic for all versions of Linux distros available. Here I tried to install on a Ubuntu 16.04 LTS and faced some issues. Of course .NET Core itself is pretty new and expecting standard versioning and dependency management across distros might be challenging even for Microsoft.</description>
+    </item>
+    
+  </channel>
+</rss>
