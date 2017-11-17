@@ -61,13 +61,13 @@
   </url>
   
   <url>
-    <loc>/categories/dot-net-core/</loc>
+    <loc>/tags/dot-net-core/</loc>
     <lastmod>2017-11-12T00:53:10-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dot-net-core/</loc>
+    <loc>/categories/dot-net-core/</loc>
     <lastmod>2017-11-12T00:53:10-08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -79,14 +79,14 @@
   </url>
   
   <url>
-    <loc>/categories/install/</loc>
-    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
+    <loc>/tags/install/</loc>
+    <lastmod>2017-11-11T23:47:12-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/install/</loc>
-    <lastmod>2017-11-11T23:47:12-08:00</lastmod>
+    <loc>/categories/install/</loc>
+    <lastmod>2017-11-12T23:01:21-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,13 +145,13 @@
   </url>
   
   <url>
-    <loc>/categories/ubuntu/</loc>
+    <loc>/tags/ubuntu/</loc>
     <lastmod>2017-11-12T23:01:21-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ubuntu/</loc>
+    <loc>/categories/ubuntu/</loc>
     <lastmod>2017-11-12T23:01:21-08:00</lastmod>
     <priority>0</priority>
   </url>
