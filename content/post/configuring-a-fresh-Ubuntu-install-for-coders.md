@@ -34,7 +34,7 @@ keywords:
 
 While I have been a coding enthusiast and Ubuntu has been my choice of OS as a hobbyist, I have always wanted to have a consistent coding environment across my installations without having to hunt for settings and configurations over the internet. Here I laid out a simple script with basic install procedures of various packages which has helped me and I would recommend for newbies. Note that most of my input is based on my limited experience and mostly focussed on Web development with platforms like nodejs, java, mysql, mongodb, Google cloud and some backend platforms including python. I did throw in some basic installations for browser (chrome), choice of editors (VSCode, Netbeans, IntelliJ, Vim) and some static html generators for blogging like Hugo, Jekyll and Sphynx (Python doc). I also tried to add configurations for my terminal zsh shell (guake terminal) with fonts and powerline packages that I like while working with git repos.
 
-I used the following desktop configuration for this install however I dont think this has anything to do with HW. Even you can try the same on a shared VM if you like which I tested and worked for me.
+I used the following desktop configuration for this install however I dont think this has anything to do with HW. Even you can try `the same on a` shared VM if you like which I `tested` and worked for me.
 
 * OS : Ubuntu 16.04 LTS
 * cpu: Xeon quad core 2.36 ghz
