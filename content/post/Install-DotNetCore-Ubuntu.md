@@ -30,7 +30,9 @@ For Ubuntu 16.04 LTS which uses libicu_55 this step is necessary
 I found this informative blog post that talks about the CLR error that you might get: https://kvaes.wordpress.com/2016/12/10/issue-with-vsts-agent-on-ubuntu-failed-to-initialize-coreclr-hresult-0x80131500/
 
 
-Download libicu_52 (ubuntu) not dev from repo: http://security.ubuntu.com/ubuntu/pool/main/i/icu/
+Download `libicu_52` (ubuntu) not dev from repo: http://security.ubuntu.com/ubuntu/pool/main/i/icu/.
+
+You may need to browse through this ftp directory to find the one right for you if using a different distro. I have used ubuntu 16.04 for this post.
 
 ```
 $ wget http://security.ubuntu.com/ubuntu/pool/main/i/icu/libicu52_52.1-3ubuntu0.6_amd64.deb
@@ -40,9 +42,9 @@ Install it
 $ sudo dpkg -i libicu52_52.1-3ubuntu0.6_amd64.deb
 ```
 
-Lets install Dot net Dev for Ubuntu 
-(using debian installer process https://www.microsoft.com/net/core#linuxdebian   ; 
-unfortunately instructions on Ubuntu apt-get install does not work. Use the debian instead with debian instructions.) 
+Lets install Dot net Dev for Ubuntu using debian installer (some caveats here): 
+
+Using debian installer process https://www.microsoft.com/net/core#linuxdebian  (unfortunately instructions on Ubuntu apt-get install does not work. Use the debian instead with debian instructions.) 
 
 	
 ## STEP 2: Install .NET Core SDK

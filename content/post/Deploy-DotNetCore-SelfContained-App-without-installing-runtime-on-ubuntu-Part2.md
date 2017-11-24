@@ -22,23 +22,25 @@ keywords:
 # Part 2: Using Visual Studio 2017 with better tooling and bugfixes.
 How to publish dotnet core apps to ubuntu without installing dotnet runtime: self contained apps development
 
-As a continuation of the previous post I tried to do the same with VS 2017 which supposedly has better tooling for Dot Net Core. I did also see the cspoj and xml structures were altered ( maybe for good - I am too noob to comment); but long story short, I had to dig around to get it working and compile the correct platform specific runtimes binaries.
-As mentioned above due to changes on csproj and json project structures I follows some instruction from this document:
+As a continuation of the previous post I tried to do the same with VS 2017 which supposedly has better tooling for Dot Net Core. I did also see the cspoj and xml structures were altered ( maybe for good - I am too noob to commenton this, please add comments); but long story short, I had to dig around to get it working and compile the correct platform specific runtimes binaries.
+As mentioned above due to changes on csproj and json project structures I followed some instruction from this documentation and elaborated in this post:
 
 https://docs.microsoft.com/en-us/dotnet/core/tools/project-json-to-csproj
 
+---
+
 ## Step 1: Change VS project setting
-Open and modify *.csproj instead of project.json which does not exist. Part of the change in tooling for 2017
+Open and modify `*.csproj` instead of project.json which does not exist. Part of the change in tooling for VS 2017
 
-Add runtime ids to the csproj / project.json
+Add runtime ids to the `csproj` / `project.json`
 
-XML: *.csproj
+XML: `*.csproj`
 ```
 <PropertyGroup>
   <RuntimeIdentifiers>win7-x64;osx.10.11-x64;ubuntu.16.04-x64</RuntimeIdentifiers>
 </PropertyGroup>
 ```
-JSON equivalent: project.json
+JSON equivalent: `project.json`
 ```
 {
   "runtimes": {
@@ -59,17 +61,19 @@ use commandline to build the app: do not use VS STUDIO to build/publish self con
 
 ```
 $ dotnet build -r ubuntu.14.04-x64
-others:
-dotnet build -r win10-x64
-dotnet build -r osx.10.10-x64
-dotnet build -r ubuntu.16.04-x64
+```
+other platforms:
+```
+$ dotnet build -r win10-x64
+$ dotnet build -r osx.10.10-x64
+$ dotnet build -r ubuntu.16.04-x64
 ```
 
 ## Step 3: Publish
 
 In project.json, defining a runtimes section means the app was standalone during build and publish. In MSBuild, all projects are portable during build, but can be published as standalone.
 
-**For *.csproj (VS 2017)**
+**For `*.csproj` (VS 2017)**
 
 Use CLI commands for publishing standalone for any target framework
 Note: target framework must match build framework and then restored.
@@ -77,7 +81,7 @@ Note: target framework must match build framework and then restored.
 $ dotnet publish --framework netcoreapp1.0 --runtime ubuntu.16.04-x64
 ```
 ------------
-**For project.json ( VS 2015)  use this :**
+**For `project.json` ( VS 2015)  use this :**
 ```
 $ dotnet publish -c release -r ubuntu.14.04-x64
 ```
@@ -105,7 +109,7 @@ Failed to load /home/towshif/Code/dotnet-core/publish/libcoreclr.so, error: libu
 Failed to bind to CoreCLR at '/home/towshif/Code/dotnet-core/publish/libcoreclr.so'
 ```
 
-In that case install libunwind8 and run again
+In that case install `libunwind8` and run again
 ```
 $ sudo apt-get install libunwind8
 ```
